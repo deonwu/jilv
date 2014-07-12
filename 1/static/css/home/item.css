@@ -1,0 +1,197 @@
+body{
+	background-color:white;
+	margin:0;
+	padding:0;
+	
+}
+.header{
+	display: block;
+    width: 100%;
+    height: 60px;
+    z-index: 90;
+    position: relative;
+    border-bottom: 1px solid #ecede8;
+    font-size:16px;
+}
+
+.header .nav{
+	float:right;
+}
+
+
+.header .nav .dropdown-menu{
+	
+	background-color:#3a3a32;
+	color:white;
+	padding:0;
+}
+
+.header .nav .dropdown-menu li{
+	height:52px;
+	overflow:hidden;
+	border-bottom:1px solid #ccc;
+	
+}
+
+
+.header .nav .dropdown-menu li a{
+	color:white;
+	line-height:52px;
+}
+
+
+
+
+.footer{
+	text-align: center;
+    margin: 5px 0;
+}
+
+.footer a{
+	font-size: 14px;
+    color: #ccc;
+    padding-bottom: 10px;
+    text-align: center;
+    display: block;
+    text-shadow: 0 1px 0 #fff;
+    font-family: Helvetica,Arial,sans-serif;
+    line-height: 15px;
+    text-decoration: none;
+}
+
+
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 80%;
+	margin: auto;
+}
+
+.pics .thumbnail{
+	max-height: 400px;
+	overflow: hidden;
+}
+
+.item_thumbs {
+	margin-top: -78px;
+	background: #444444;
+	position: relative;
+	bottom: 10px;
+	width: 98%;
+	height: 80px;
+	opacity: 0.9;
+}
+
+.price_items{
+	padding: 4px;
+	border: 2px solid #cccccc;
+	margin-top:10px;
+}
+
+.center-block{
+	text-align:center;
+}
+
+.well{
+	padding:4px;	
+}
+
+.price_detil{
+	background: #fff;
+	padding:10px;
+}
+
+
+.price_calender {
+	text-align:center;
+	display:block;
+	padding:4px;
+}
+
+.product_info{
+	margin-top:10px;
+}
+
+.price_calender h4{
+	font-size: 18px;
+	border: 1px solid;
+	margin-bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.price_calender h4 .pull-left{
+	    position: relative;
+    	bottom: 8px;
+    	left: 3px;
+		background-color: rgb(250, 239, 218);
+}
+
+.price_calender h4 .pull-right{
+	    position: relative;
+    	bottom: 8px;
+    	right: 3px;
+		background-color: rgb(250, 239, 218);
+}
+
+.price_calender h4 a i{
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.price_calender h4 .pull-right{
+	
+}
+
+
+.calendar{
+	width:100%;
+}
+
+.calendar tbody tr:first-child{
+	background-color: rgb(129, 123, 123);
+	color: white;
+}
+
+.calendar tbody tr:first-child th{
+	 text-align:center;
+	padding: 10px;
+}
+
+.calendar td{
+	border:1px solid #3d3d3d;
+}
+
+.calendar td label{
+	font-size:9px;
+  font-weight:normal;
+}
+
+.calendar .remain{
+	background:#6FCE67;
+}
+
+.calendar .cur{
+	background:#A7A126;
+}
+
+
+
+.item_price_val{
+	font-size:18px;	
+}
+
+.price_calender {
+	background:#fff;
+}
+
+.total_price{
+	font-size:24px;
+	font-weight: bolder;
+	color:#F39609;
+}
+
+.box{
+	padding: 10px;
+	border: 2px solid #cccccc;
+	margin-top:10px;	
+}

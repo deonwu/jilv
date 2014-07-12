@@ -1,0 +1,20 @@
+
+.med-list-o td{
+	border: 1px solid #E6E6E6;
+	border-left: 1px solid #F0F0F0;
+	border-right: 1px solid #F0F0F0;
+	padding: 20px 0;
+	position:relative;
+	top:-20px;
+	height:130px;
+	
+}
+
+.med-list-o td .yestoday{
+	height:60px;
+	line-height:30px;
+	font-size:12px;
+	position:absolute;
+	bottom:-20px;
+
+}

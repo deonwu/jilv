@@ -1,0 +1,8 @@
+name: jilv
+version: 1
+handle:
+- rewrite: if(path ~ "\.htc") goto "/error/404.html"
+
+
+- rewrite: if(!is_dir() && !is_file()) goto "index.php/%{QUERY_STRING}"
+- errordoc: 404 /error/404.html

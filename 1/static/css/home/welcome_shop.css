@@ -1,0 +1,30 @@
+
+.register_tips{
+	margin-top:120px;
+}
+
+.top_images {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 5% 0;
+}
+
+.register_tips div{
+	margin-top:20px;
+}
+
+.shop_follow{
+	padding: 20px;
+}
+
+.shop_follow i{
+	color:#3C6FDB;
+	font-size: 1.4em;
+	margin: 20px;
+}
+
+.shop_follow .label{
+	padding: 0.8em 1em;
+}
+

@@ -1,0 +1,141 @@
+body{
+	background-color:white;
+	margin:0;
+	padding:0;
+	
+}
+.header{
+	display: block;
+    width: 100%;
+    height: 60px;
+    z-index: 90;
+    position: relative;
+    border-bottom: 1px solid #ecede8;
+    font-size:16px;
+}
+
+.header .nav{
+	float:right;
+}
+
+
+.header .nav .dropdown-menu{
+	
+	background-color:#3a3a32;
+	color:white;
+	padding:0;
+}
+
+.header .nav .dropdown-menu li{
+	height:52px;
+	overflow:hidden;
+	border-bottom:1px solid #ccc;
+	
+}
+
+
+.header .nav .dropdown-menu li a{
+	color:white;
+	line-height:52px;
+}
+
+
+
+
+.footer{
+	text-align: center;
+    margin: 5px 0;
+}
+
+.footer a{
+	font-size: 14px;
+    color: #ccc;
+    padding-bottom: 10px;
+    text-align: center;
+    display: block;
+    text-shadow: 0 1px 0 #fff;
+    font-family: Helvetica,Arial,sans-serif;
+    line-height: 15px;
+    text-decoration: none;
+}
+
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 80%;
+	margin: auto;
+}
+
+
+
+.center-block{
+	text-align:center;
+}
+
+.well{
+	padding:4px;	
+}
+
+
+
+
+
+.item_price_val{
+	font-size:18px;	
+}
+
+.price_calender {
+	background:#fff;
+}
+
+.total_price{
+	font-size:24px;
+	font-weight: bolder;
+	color:#F39609;
+}
+
+.box{
+	padding: 10px;
+	border: 2px solid #cccccc;
+	margin-top:10px;	
+}
+
+.item .pic img{
+	max-width:150px;
+}
+
+.item .pic a{
+	max-height:100px;
+	display:block;
+	display: block;
+	max-height: 100px;
+	overflow: hidden;
+}
+
+.item .product_info {
+	margin-left:160px;
+}
+
+.item{
+	border: 2px solid #CCCCCB;
+	margin-top:10px;
+}
+
+.item .shop{
+	margin-top:10px;
+	clear:both;
+	background:#eeeeee;
+}
+
+
+#cate_nav_bar a.cur{
+	color:#FF5693;
+}
+
+.grid .item{
+	border: 1px; solid #eeeeee;
+	margin-top:10px;
+	height:200px;
+}
+
+
